@@ -1,0 +1,223 @@
+.menuBtn {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 0;
+  width: 36px;
+}
+.docs-logo img{
+  width: 150px;
+}
+.muppet-list .md-button {
+  color: inherit;
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+}
+.muppet-list .selected {
+  color: #03a9f4;
+}
+.face {
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  margin: 4px 16px; 
+  vertical-align: middle;
+  width: 48px;
+}
+.content-wrapper {
+  position: relative;
+}
+#primary-col {
+  overflow: hidden;
+}
+#primary-col .md-button {
+  margin: 8px auto 16px 0;
+}
+#primary-col .cell {
+  flex: 1 1 auto;
+}
+#primary-col img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Using Data-URI converted from svg until <md-icon> becomes available 
+https://github.com/google/material-design-icons
+*/
+.menuBtn {
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGcgaWQ9IkhlYWRlciI+CiAgICA8Zz4KICAgICAgICA8cmVjdCB4PSItNjE4IiB5PSItMjIzMiIgZmlsbD0ibm9uZSIgd2lkdGg9IjE0MDAiIGhlaWdodD0iMzYwMCIvPgogICAgPC9nPgo8L2c+CjxnIGlkPSJMYWJlbCI+CjwvZz4KPGcgaWQ9Ikljb24iPgogICAgPGc+CiAgICAgICAgPHJlY3QgZmlsbD0ibm9uZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ii8+CiAgICAgICAgPHBhdGggZD0iTTMsMThoMTh2LTJIM1YxOHogTTMsMTNoMTh2LTJIM1YxM3ogTTMsNnYyaDE4VjZIM3oiIHN0eWxlPSJmaWxsOiNmM2YzZjM7Ii8+CiAgICA8L2c+CjwvZz4KPGcgaWQ9IkdyaWQiIGRpc3BsYXk9Im5vbmUiPgogICAgPGcgZGlzcGxheT0iaW5saW5lIj4KICAgIDwvZz4KPC9nPgo8L3N2Zz4=) no-repeat  center center;
+}
+
+.md-button.photo{
+	z-index: 560;
+	position: absolute !important;
+	right: 3px !important;
+	bottom: 5px !important;
+}
+
+.md-button.facebook{
+  background-color: rgb(67,96,156) !important;
+}
+
+.md-button.twitter{
+  background-color: rgb(94, 169, 221) !important;
+}
+
+.md-button.whatsapp{
+  background-color: rgb(92,190,74) !important;
+}
+
+.bottomSheetdemoBasicUsage .md-inline-list-icon-label {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -10px;
+  height: 24px;
+  vertical-align: middle; }
+.bottomSheetdemoBasicUsage .md-grid-item-content {
+  height: 96px; }
+.bottomSheetdemoBasicUsage .md-grid-item-content md-icon {
+  height: 48px;
+  width: 48px; }
+.bottomSheetdemoBasicUsage .md-grid-text {
+  padding-bottom: 5px; }
+
+
+.MuppetApp md-content {
+  background-color: transparent !important; }
+  .MuppetApp md-content md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1; }
+    .MuppetApp md-content md-tabs md-tabs-canvas {
+      background: white; }
+  .MuppetApp md-content h1:first-child {
+    margin-top: 0; }
+
+
+
+
+
+
+/* CONFIGURACION */
+
+.inputdemoErrors .inputErrorsApp {
+  min-height: 48px;
+}
+
+.tabsdemoDynamicHeight md-content {
+  background-color: transparent !important; }
+  .tabsdemoDynamicHeight md-content md-tabs {
+    /*background: url('../resources/img/bg_del_corte.jpg') no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #selfie md-content md-tabs {
+    background: url('../resources/img/bg_del_corte.jpg') no-repeat center center fixed;
+  }
+    .tabsdemoDynamicHeight md-content md-tabs md-tabs-canvas {
+      background: white; }
+  .tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }
+
+
+.opcion-list{
+  margin-top: 100px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.opcion-list li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.opcion-list li img{
+  width: 80%;
+  height: 300px;
+}
+
+input.fileUpload{
+  position: absolute;
+  height: 100px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.camera-button{
+  margin-top: 15px;
+}
+
+.progress {
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 22;
+}
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  text-align: center;
+  background-color: #D32F2F;
+  -webkit-transition: width .6s ease-in;
+  transition: width .6s ease-in;
+}
+
+canvas {
+  background-color: #f3f3f3;
+}
+
+#rotate-area {
+  overflow: hidden;
+}
+
+#clon{
+  width: 90%;
+  max-height: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+#arrow {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+img.clon-hidden{
+  opacity: 0;
+  -webkit-box-shadow: 0 0 1px 0 #0055FF;
+  box-shadow: 0 0 1px 0 #0055FF;
+}
+
+#markup{
+  height: auto;
+  overflow: hidden;
+}
+
+#share{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.bienvenida{
+  background-color: #D32F2F;
+}

@@ -1,0 +1,39 @@
+<div layout="row" class="content-wrapper" id="primary-col" ng-controller="videoCtrl">
+	<div flex="75">
+		<md-content layout="column" class="md-padding">
+			
+			<md-toolbar class="md-orange">
+			    <div class="md-toolbar-tools">
+			    	<h2 class="md-flex">Curso Álgebra Avanzada</h2>
+			    </div>
+			</md-toolbar>
+			
+			<br>
+			
+			<div class="cell">
+				<iframe ng-src="{{video_id_url | trustAsResourceUrl}}" width="740" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+
+			<div layout="row" layout-align="space-between center">
+				<div>
+					<md-button ng-disabled="true" class="md-raised md-primary">cap. anterior</md-button>
+				</div>
+				<div>
+					<md-list>
+						<md-list-item class="md-2-line">
+							<div class="md-list-item-text">
+								<p>Módulo 4: {{foo2.nombre}}Curso Álgebra Avanzada</p>
+								<h3>{{foo2.video_title}}</h3>
+							</div>
+						</md-list-item>
+					</md-list>
+				</div>
+				<div>
+					<md-button class="md-raised md-primary">cap. siguiente</md-button>
+				</div>
+			</div>
+
+			
+		</md-content>
+	</div>
+</div>

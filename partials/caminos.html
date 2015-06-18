@@ -1,0 +1,50 @@
+<div layout="row" layout-wrap layout-align="" class="md-padding">
+  <div flex="80">
+    <h3 class="md-headline">Elige tu <a href="">Camino</a> y desarrolla tus habilidades, pasea por <a href="">Todos los Cursos</a> o aprende más de los <a href="">Primeros Pasos</a> en Kimen.</h3>
+    <ng-md-icon icon="share" style="fill: #585A5B" size="24"></ng-md-icon>
+    <md-button ng-disabled="true" style="top: -8px;" class="md-raised md-primary">Caminos</md-button>
+
+    <ng-md-icon icon="list" style="fill: #585A5B" size="24"></ng-md-icon>
+    <md-button class="md-primary" style="top: 12px;" ng-href="#{{'/cursos'}}">Todos los Cursos</md-button>
+  </div>
+
+  <div class="gridListdemoDynamicTiles" flex="100">
+    <md-grid-list md-cols-sm="1" md-cols-md="1" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="7px">
+      <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2" class="deepBlue md-whiteframe-z1">
+        <ng-md-icon class="md-whiteframe-z1" icon="functions" style="fill: white" size="64"></ng-md-icon>
+        <md-grid-tile-footer>
+          <p class="md-body-2">El camino de la</p>
+          <h4 class="md-headline">Matemáticas</h4>
+          <p class="md-body-1">En este curso de Física Clásica se trataran los temas de unidades de medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          <section layout="row" layout-sm="column" layout-align="center center">
+            <md-button class="md-raised" ng-href="#{{'/caminos/matematicas'}}">Ver Curso</md-button>
+          </section>
+        </md-grid-tile-footer>
+      </md-grid-tile>
+      <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2" class="green md-whiteframe-z1">
+        <ng-md-icon class="md-whiteframe-z1" icon="grain" style="fill: white" size="64"></ng-md-icon>
+        <md-grid-tile-footer>
+          <p class="md-body-2">El camino de la</p>
+          <h4 class="md-headline">Física</h4>
+          <p class="md-body-1">En este curso de Física Clásica se trataran los temas de unidades de medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          <section layout="row" layout-sm="column" layout-align="center center">
+            <md-button class="md-raised">Ver Curso</md-button>
+          </section>
+        </md-grid-tile-footer>
+      </md-grid-tile>
+      <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2" class="lightPurple md-whiteframe-z1">
+        <ng-md-icon class="md-whiteframe-z1" icon="layers_clear" style="fill: white" size="64"></ng-md-icon>
+        <md-grid-tile-footer>
+          <p class="md-body-2">El camino del</p>
+          <h4 class="md-headline">Cálculo</h4>
+          <p class="md-body-1">En este curso de Física Clásica se trataran los temas de unidades de medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          <section layout="row" layout-sm="column" layout-align="center center">
+            <md-button class="md-raised">Ver Curso</md-button>
+          </section>
+        </md-grid-tile-footer>
+      </md-grid-tile>
+    </md-grid-list>
+  </div>
+</div>
+
+

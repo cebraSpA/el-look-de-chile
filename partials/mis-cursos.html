@@ -1,0 +1,47 @@
+<div class="tabsdemoDynamicHeight">
+  <md-content class="">
+    <md-tabs md-dynamic-height>
+      <md-tab label="del corte">
+        <md-content class="md-padding">
+          <ul class="opcion-list">
+            <li><img src="resources/img/pharse_gary.svg" alt="" /></li>
+            <li><img src="resources/img/pharse_gary.svg" alt="" /></li>
+            <li><img src="resources/img/pharse_gary.svg" alt="" /></li>
+          </ul>
+        </md-content>
+      </md-tab>
+      <md-tab label="tatto">
+        <md-content class="md-padding">
+          
+          <div style="text-align: center; margin-top: 100px;">
+            
+            <div ng-repeat="item in uploader.queue">
+              
+              <div style="  position: absolute; left: 0; right: 0; top: 65px;">
+                  <div ng-show="uploader.isHTML5" ng-thumb="{ file: item._file, height: 300 }"></div>
+              </div>
+            
+            </div>
+            <img src="resources/img/gary.png" width="80%" style="z-index:1000; position:relative;" />
+            <div class="progress" style="">
+                <div class="progress-bar" role="progressbar" ng-style="{ 'width': uploader.progress + '%' }"></div>
+            </div>
+
+            <md-button class="md-raised md-primary" ng-click="uploader.uploadAll()" ng-disabled="!uploader.getNotUploadedItems().length">listo</md-button>
+          
+          </div>
+        
+        </md-content>
+      </md-tab>
+      <md-tab label="six pack">
+        <md-content class="md-padding">
+          <ul class="opcion-list">
+            <li><img src="resources/img/pharse_gary.svg" alt="" /></li>
+            <li><img src="resources/img/pharse_gary.svg" alt="" /></li>
+            <li><img src="resources/img/pharse_gary.svg" alt="" /></li>
+          </ul>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+  </md-content>
+</div>

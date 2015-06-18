@@ -1,0 +1,51 @@
+<div layout="row" class="content-wrapper" id="primary-col">
+	<div flex="75">
+		<md-content layout="column" class="md-padding" ng-controller="signIn">
+			
+			<md-toolbar class="md-orange">
+			    <div class="md-toolbar-tools">
+			    	<h2 class="md-flex">Configuración de la Cuenta</h2>
+			    </div>
+			</md-toolbar>
+			<br>
+			<form name="projectForm">
+				<md-input-container>
+					<label>Nombre</label>
+					<input required name="userName" ng-model="datosCuenta.nombreCompleto">
+					<div ng-messages="projectForm.userName.$error">
+					  <div ng-message="required">Tu nombre es requerido.</div>
+					</div>
+				</md-input-container>
+				<md-input-container>
+					<label>Email</label>
+					<input required name="userEmail" ng-model="datosCuenta.email">
+					<div ng-messages="projectForm.userEmail.$error">
+					  <div ng-message="required">Tu email es requerido.</div>
+					</div>
+				</md-input-container>
+				<div layout layout-sm="column">
+					<md-input-container flex="45">
+						<label>Colegio</label>
+						<input ng-model="user.address">
+					</md-input-container>
+					<md-input-container flex="45">
+						<label>Universidad</label>
+						<input ng-model="user.address">
+					</md-input-container>
+					<md-input-container flex="10">
+						<label>Edad</label>
+						<input type="number" step="any" name="rate" ng-model="project.rate" min="8" max="40">
+					</md-input-container>
+				</div>
+				<md-input-container>
+					<label>Cuéntanos de ti</label>
+					<input md-maxlength="300" name="description" ng-model="datosCuenta.resena">
+					<div ng-messages="projectForm.description.$error">
+						<div ng-message="md-maxlength">Tu descripción no debe contener más de 300 caracteres de longitud.</div>
+					</div>
+				</md-input-container>
+				<md-button layout-align="end end" class="md-raised md-primary">Guardar Cambios</md-button>
+			</form>
+		</md-content>
+	</div>
+</div>

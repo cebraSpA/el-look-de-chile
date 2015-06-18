@@ -1,0 +1,83 @@
+<div layout="row" layout-wrap layout-align="">
+  <md-toolbar class="md-tall md-primary md-hue-5">
+    <span flex=""></span>
+    <h2 class="md-toolbar-tools">
+      <span class="md-display-2">Matemáticas</span>
+    </h2>
+    <p class="md-toolbar-tools md-body-1">
+      Subheaders are implemented using absolute positioning. In your example you are<br>trying to use an absolute positioned element as a direct child of a flex element.
+    </p>
+  </md-toolbar>
+  
+  <div class="todosLosCursos" flex="70">
+    <md-content layout="column" class="md-padding">
+      <p>Caminos > Matemática</p>
+      <md-divider></md-divider>
+      <h3 class="md-headline">Curso de Álgebra</h3>
+      <p>JavaScript is a powerful and popular language for programming on the web. These courses will give you a strong foundation in the JavaScript language so you’ll be ready to move up to frameworks like Angular and Node.js.</p>
+      <md-grid-list md-cols-sm="1" md-cols-md="1" md-cols-gt-md="2" md-row-height-gt-md="6:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="30px">
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="functions" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer layout-align="center center">
+            <p class="md-body-2">Curso Gratis</p>
+            <h4 class="md-headline">Productos Notables</h4>
+            <p class="md-body-1">En este curso de Física Clásica se trataran los temas.</p>
+            <md-button class="md-fab md-primary" aria-label="Reproducir Curso" ng-href="#{{'/curso/algebra-avanzada'}}">
+              <ng-md-icon class="icon-play" icon="play_arrow" style="fill: #E6E8F5" size="32"></ng-md-icon>
+            </md-button>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="grain" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer>
+            <p class="md-body-2">Curso</p>
+            <h4 class="md-headline">Razones y Proporciones</h4>
+            <p class="md-body-1">En este curso de Física Clásica se trataran los temas de unidades de medida.</p>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="layers_clear" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer>
+            <p class="md-body-2">Curso</p>
+            <h4 class="md-headline">Porcentajes</h4>
+            <p class="md-body-1">Medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="layers_clear" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer>
+            <p class="md-body-2">Curso</p>
+            <h4 class="md-headline">Interes Simple</h4>
+            <p class="md-body-1">Medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="layers_clear" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer>
+            <p class="md-body-2">Curso</p>
+            <h4 class="md-headline">Interés Compuesto</h4>
+            <p class="md-body-1">Medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="layers_clear" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer>
+            <p class="md-body-2">Curso</p>
+            <h4 class="md-headline">Ecuaciones de Primer Grado</h4>
+            <p class="md-body-1">Medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+          <ng-md-icon class="md-whiteframe-z1 course-icon" icon="layers_clear" style="fill: white" size="64"></ng-md-icon>
+          <md-grid-tile-footer>
+            <p class="md-body-2">Curso</p>
+            <h4 class="md-headline">Problemas de Planteo</h4>
+            <p class="md-body-1">Medida y conversiones, dinámica y equilibrio estático, trabajo y energía.</p>
+          </md-grid-tile-footer>
+        </md-grid-tile>
+      </md-grid-list>
+    </md-content>
+  </div>
+</div>
+
+
