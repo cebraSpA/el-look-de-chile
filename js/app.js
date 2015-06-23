@@ -11,10 +11,18 @@ app.config(function ($routeProvider, $locationProvider) {
 		templateUrl: 'partials/selfie.html',
 		controller: 'AppController'
 	}).
-	when('/selfie/el-pitbull', {
-		templateUrl: 'partials/player.html',
+	when('/selfie/alexis', {
+		templateUrl: 'partials/alexis.html',
 		controller: 'AppController'
 	}).
+  when('/selfie/el-rey', {
+    templateUrl: 'partials/el-rey.html',
+    controller: 'AppController'
+  }).
+  when('/selfie/el-pitbull', {
+    templateUrl: 'partials/el-pitbull.html',
+    controller: 'AppController'
+  }).
   when('/share/:imagen/', {
     templateUrl: 'partials/share.html',
     controller: 'sharer'

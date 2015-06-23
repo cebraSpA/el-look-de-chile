@@ -6,7 +6,7 @@
       <div id="clon" class="resize-drag" style="-webkit-box-shadow: 0 0 1px 0 #0055FF; box-shadow: 0 0 1px 0 #0055FF; position: absolute; left: 0; right: 0; top: 65px; z-index: 23;">
         <img id="arrow" class="clon-hidden" ng-src="server/uploads/{{fotoJugador.photoName}}" style="" />
       </div>
-      <img src="resources/img/pitbull.png" width="100%" style="position:relative; z-index: 20;" />
+      <img src="resources/img/el-pitbull.png" width="100%" style="position:relative; z-index: 20;" />
     </div>
 </div>
 
@@ -22,14 +22,8 @@
 
 <div ng-show="share" id="share">
   <section layout="row" layout-sm="row" layout-align="center center">
-    <md-button class="md-fab twitter" aria-label="Twitter">
-      <md-icon md-svg-src="resources/img/icons/twitter.svg"></md-icon>
-    </md-button>
     <md-button ng-click="compartir(post)" class="md-fab facebook" aria-label="Facebook">
       <md-icon md-svg-src="resources/img/icons/facebook.svg"></md-icon>
-    </md-button>
-    <md-button class="md-fab whatsapp" aria-label="WhatsApp">
-      <md-icon md-svg-src="resources/img/icons/whatsapp.svg"></md-icon>
     </md-button>
   </section>
 </div>
